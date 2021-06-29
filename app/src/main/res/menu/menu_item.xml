@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        android:icon="@drawable/ic_baseline_share"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/copy"
+        android:title="@string/copy"
+        android:icon="@drawable/ic_baseline_content_copy"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/speak"
+        android:title="@string/speak"
+        android:icon="@drawable/ic_baseline_mic"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuickNews</string>
+    <string name="share">Share</string>
+    <string name="copy">Copy To Clipboard</string>
+    <string name="speak">speak</string>
+    <string name="listen_news">Listen News</string>
+    <string name="save_article">Save Article</string>
+</resources>

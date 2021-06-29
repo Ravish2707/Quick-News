@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomSheet"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_bottom_sheet"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/newsImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="4dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+           android:layout_marginLeft="12dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            tools:text="Vodafone Idea Q3 results: Net loss at ₹4,532 crore, slight jump in revenue - Mint"
+            android:layout_marginStart="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listen_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_mic"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/listen_news" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/save_article"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_save"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/save_article" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/share_article"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_share"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/share" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/copy_article_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_content_copy"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/copy" />
+    </LinearLayout>
+
+</LinearLayout>
